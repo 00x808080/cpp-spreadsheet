@@ -41,8 +41,8 @@ private:
     void ChangePrintAreaByCol();
     void ChangePrintAreaByRow();
 	
-    std::unique_ptr<Impl> impl_ GetTypeCell(std::string text);
-    void CheckCyclicDependencies();
+	std::unique_ptr<Impl> impl_ GetTypeCell(std::string text);
+	void CheckCyclicDependencies();
 };
 
 template <typename T>
